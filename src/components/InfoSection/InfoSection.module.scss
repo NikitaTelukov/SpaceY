@@ -1,0 +1,10 @@
+.infoSection {
+  position: relative;
+  padding-bottom: 25rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .infoSection {
+    padding-bottom: 15rem;
+  }
+}

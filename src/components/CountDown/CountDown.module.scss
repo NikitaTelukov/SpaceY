@@ -1,0 +1,21 @@
+@import "src/pages/css/source/variables";
+
+.countWrapper {
+  display: flex;
+  align-items: center;
+  color: $color_white;
+  font-size: 2rem;
+}
+
+.counter {
+  background: #27273D;
+  border-radius: 1.2rem;
+  padding: 2.5rem 0;
+  width: 8.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dots {
+  margin: 0 0.5rem;
+}

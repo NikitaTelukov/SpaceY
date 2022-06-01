@@ -1,0 +1,27 @@
+@import "src/pages/css/source/variables";
+
+.shipmentList {
+  list-style: none;
+  counter-reset: custom-counter;
+
+  li {
+    counter-increment: custom-counter;
+    display: flex;
+
+    &:before {
+      content: counter(custom-counter) ". ";
+      color: $color_white;
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.mission {
+  margin-right: 1rem;
+}
+
+.shipmentRow {
+  margin: 2rem 0;
+}

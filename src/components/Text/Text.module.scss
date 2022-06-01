@@ -1,0 +1,84 @@
+@import "../../pages/css/source/variables";
+
+.text2 {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.texto1 {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.text3_little {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.text3_medium {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+}
+
+.text3_large {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  font-weight: 500;
+}
+
+.display {
+  font-size: 6.2rem;
+  line-height: 8.2rem;
+  font-weight: 800;
+}
+
+.heading1 {
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  font-weight: bold;
+}
+
+.heading2 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 500;
+}
+
+.heading3 {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+}
+
+.margins {
+  margin: 0;
+}
+
+:export {
+  colorWhite: $color_white;
+  space: $space;
+  spaceLight: $space-light;
+  spaceDark: $space-dark;
+  mars: $mars;
+  marsLight: $mars-light;
+  marsDark: $mars-dark;
+  gray01: $gray-01;
+  gray02: $gray-02;
+  gray03: $gray-03;
+  gray04: $gray-04;
+  gray05: $gray-05;
+  uranus: $uranus;
+  sun: $sun;
+  jupiter: $jupiter;
+  earth: $earth;
+  saturn: $saturn;
+}
+
+@media screen and (max-width: 1024px) {
+  .display {
+    font-size: 3.6rem;
+    line-height: 5.3rem;
+  }
+}

@@ -1,0 +1,17 @@
+.sliderSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-right: -1.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .sliderSection {
+    flex-direction: column;
+    margin-right: 0;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  }
+}

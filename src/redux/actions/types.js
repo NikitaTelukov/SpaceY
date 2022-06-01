@@ -1,0 +1,5 @@
+export const MODE_SWITCHER = "MODE_SWITCHER"
+export const GET_SHIPS = "GET_SHIPS"
+export const LOADING_SHIPS = "LOADING_SHIPS"
+export const ERROR_SHIPS = "ERROR_SHIPS"
+export const REQUEST_SHIPS = "REQUEST_SHIPS"

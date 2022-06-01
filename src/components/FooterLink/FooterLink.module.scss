@@ -1,0 +1,14 @@
+.footerLink {
+  margin: 0 2.65rem;
+  list-style: none;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footerLink {
+    margin: 1rem 2.65rem;
+  }
+}

@@ -1,0 +1,27 @@
+.container {
+  max-width: 35rem;
+  width: 95%;
+  margin-top: 6rem;
+}
+
+.detailsPod {
+  margin: 1.2rem 0;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+  margin-top: 2.5rem;
+}
+
+.sneak {
+  margin-top: 3.2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: auto;
+  }
+}

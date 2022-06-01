@@ -1,0 +1,31 @@
+@import "../../pages/css/source/variables";
+
+.ticketFormWrapper {
+  background: $space-darker;
+  border-radius: 2rem;
+  padding: 3.9rem 5.3rem 6.1rem 5.3rem;
+  max-width: 52rem;
+}
+
+.garantaText {
+  margin-top: 2.1rem;
+  margin-bottom: 1.6rem;
+  max-width: 27rem;
+}
+
+.preenchaText {
+  margin-bottom: 3.2rem;
+  max-width: 32rem;
+}
+
+.validationError {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .ticketFormWrapper {
+    width: 70%;
+    padding: 3.9rem 3.3rem 6.1rem 3.3rem;
+    margin-bottom: 5rem;
+  }
+}

@@ -1,0 +1,33 @@
+.planetInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 130rem;
+  position: relative;
+  z-index: 2;
+}
+
+.planetInfoContent {
+  width: 50%;
+  max-width: 60.2rem;
+}
+
+.sobreHeading {
+  margin: 1.4rem 0 2.6rem 0;
+}
+
+.bigText {
+  margin-bottom: 2.4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .planetInfo {
+    flex-direction: column;
+  }
+
+  .planetInfoContent {
+    width: 90%;
+    max-width: none;
+    margin-bottom: 5rem;
+  }
+}

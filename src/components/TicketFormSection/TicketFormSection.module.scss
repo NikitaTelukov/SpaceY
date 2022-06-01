@@ -1,0 +1,14 @@
+.ticketFormSection {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 112rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .ticketFormSection {
+    flex-direction: column;
+    align-items: center;
+  }
+}

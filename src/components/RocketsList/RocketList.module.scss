@@ -1,0 +1,59 @@
+.rocketCard {
+  background: #27273D;
+  border-radius: 1.2rem;
+  padding: 1.6rem 1.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.rocketCardWrapper {
+  max-width: 35rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.rocketList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rocketText {
+  padding-left: 2.7rem;
+}
+
+.launches {
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.code {
+  font-weight: 500;
+  margin-top: 0.9rem;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 2.2rem;
+  margin-top: 6rem;
+}
+
+.timerWrapper {
+  padding: 0 1.9rem;
+}
+
+.timerLaunch {
+  margin-bottom: 1rem;
+  margin-top: 4.1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .rocketCardWrapper {
+    margin-right: 1.5rem;
+  }
+}
