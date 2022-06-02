@@ -7,7 +7,7 @@ const TicketFormSection:FunctionComponent = ()=> {
     return (
         <div className={styles.ticketFormSection} id="ticket-form">
             <TicketForm />
-            <Image src="/images/big-rocket.svg" width={546} height={981} />
+            <Image src="/images/big-rocket.svg" width={546} height={981} alt="Rocket Image"/>
         </div>
     )
 }

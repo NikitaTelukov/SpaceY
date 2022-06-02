@@ -2,23 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be11840c-0a0e-43d6-8cf7-096741da324e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeSlider/HomeSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeSlider/HomeSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoIcons/InfoIcon/InfoIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoIcons/InfoIcon/InfoIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModeSwitcher/ModeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModeSwitcher/ModeSwitcher.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlanetInfo/PlanetInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlanetInfo/PlanetInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RocketsList/RocketsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RocketsList/RocketsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SocialIcons/SocialIcon/SocialIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialIcons/SocialIcon/SocialIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TicketFormSection/TicketFormSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TicketFormSection/TicketFormSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopAstronautSection/TopAstronautSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopAstronautSection/TopAstronautSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact-us.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact-us.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Header.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/launches.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/launches.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/launches/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/launches/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ships/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ships/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/upcoming.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/upcoming.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/upcoming/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/upcoming/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +63,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/var/www/react-training/next-ts-app/src/pages&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/var/www/react-training/next-ts-app/src/stories/pages&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -71,11 +79,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/stories/pages" />
       <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/images/slider" />
       <recent name="$PROJECT_DIR$/public/light" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/upcoming" />
@@ -84,6 +92,23 @@
       <recent name="$PROJECT_DIR$/public/dark" />
       <recent name="$PROJECT_DIR$/public/light" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.storybook" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,20 +151,17 @@
       <workItem from="1654025522670" duration="6103000" />
       <workItem from="1654069671037" duration="44000" />
       <workItem from="1654095412431" duration="7477000" />
-      <workItem from="1654114535842" duration="3644000" />
+      <workItem from="1654114535842" duration="5765000" />
+      <workItem from="1654122773320" duration="519000" />
+      <workItem from="1654154337276" duration="5055000" />
+      <workItem from="1654174171244" duration="423000" />
+      <workItem from="1654181934464" duration="3538000" />
+      <workItem from="1654190286583" duration="98000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/stories/Page.jsx" />
-        <option value="$PROJECT_DIR$/src/stories/Page.stories.jsx" />
-        <option value="$PROJECT_DIR$/src/stories/Button.stories.jsx" />
-        <option value="$PROJECT_DIR$/src/stories/Button.jsx" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

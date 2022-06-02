@@ -7,7 +7,7 @@ const ModeSwitcher = ({toggleMode, isDarkMode}) => {
     return (
         <label className={styles.moonSwitcherWrapper} htmlFor="modes-switcher">
             <input className={styles.moonSwitcher} id="modes-switcher" type="checkbox" onChange={()=> toggleMode()}/>
-            <Image src={isDarkMode ? "/images/dark/moon.svg" : "/images/light/moon.svg"} width={31} height={31}/>
+            <Image src={isDarkMode ? "/images/dark/moon.svg" : "/images/light/moon.svg"} width={31} height={31} alt="Modes switcher"/>
         </label>
     )
 }

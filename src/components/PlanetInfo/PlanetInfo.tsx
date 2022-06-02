@@ -6,7 +6,7 @@ import styles from "./PlanetInfo.module.scss"
 const PlanetInfo:FunctionComponent = () => {
     return (
         <div className={styles.planetInfo}>
-            <Image src="/images/mars.svg" width={621} height={621} />
+            <Image src="/images/mars.svg" width={621} height={621} alt="Mars image"/>
             <div className={styles.planetInfoContent}>
                 <Text type="text3_medium" color="sun" spacing={5}>POR QUE MARTE?</Text>
                 <Text customClass={styles.sobreHeading} type="heading1">Sobre o planeta vermelho</Text>

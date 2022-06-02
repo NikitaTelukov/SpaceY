@@ -1,9 +1,11 @@
 import {NextPage} from "next";
 import RocketsList from "@components/RocketsList/RocketsList";
-import fetch from "node-fetch";
+import Layout from "@components/Layout/Layout";
 
 const Launches: NextPage<{launches: object[]}> = ({launches}) => (
-    <RocketsList heading="Launches" launches={launches}/>
+    <Layout>
+        <RocketsList heading="Launches" launches={launches}/>
+    </Layout>
 )
 
 

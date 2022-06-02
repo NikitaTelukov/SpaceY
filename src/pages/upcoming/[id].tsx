@@ -1,11 +1,11 @@
 import {NextPage} from "next";
-import fetch from "node-fetch";
 import RocketCard from "@components/RocketsList/RocketCard/RocketCard";
 import Text from "@components/Text/Text";
 import styles from './Upcoming.module.scss'
+import Layout from "@components/Layout/Layout";
 
 const Upcoming: NextPage<{ [key: string]: any }> = ({launch}) => (
-    <>
+    <Layout>
         <Text customClass={styles.upcomingHeading} type="heading2">Upcoming</Text>
 
         <RocketCard
@@ -16,7 +16,7 @@ const Upcoming: NextPage<{ [key: string]: any }> = ({launch}) => (
             upcoming={true}
             site_name_long={launch.launch_site.site_name_long}
         />
-    </>
+    </Layout>
 )
 
 Upcoming.getInitialProps = async ({query}) => {

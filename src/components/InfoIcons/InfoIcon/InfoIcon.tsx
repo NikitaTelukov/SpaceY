@@ -7,7 +7,7 @@ import styles from "./InfoIcon.module.scss"
 const InfoIcon:FunctionComponent<InfoIconI> = ({src, children}) => {
     return (
         <div className={styles.infoIcon}>
-            <Image src={src} width={47} height={47} />
+            <Image src={src} width={47} height={47} alt="Info"/>
             <Text type="texto1" color="gray05">{children}</Text>
         </div>
     )

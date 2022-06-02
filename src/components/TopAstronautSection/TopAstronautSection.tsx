@@ -3,10 +3,14 @@ import Image from "next/image";
 import styles from "./TopAstronautSection.module.scss"
 import Button from "@components/Button/Button";
 import Link from "next/link";
+import {useSelector} from "react-redux";
+import {RootState} from "@components/Layout/Layout";
 
 const TopAstronautSection = () => {
+    const back = useSelector((state: RootState)=> state.modeSwitcher.mainBackground)
+
     return (
-        <section className={styles.section}>
+        <section style={{background: back}} className={styles.section}>
             <div className={styles.textContent}>
                 <Text type="text3_large" color="sun" spacing={5}>Finalmente é possível!</Text>
                 <Text customClass={styles.displayHeading} type="display">Sua jornada para Marte começa aqui.</Text>

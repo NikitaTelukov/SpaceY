@@ -1,9 +1,11 @@
 import {NextPage} from "next";
-import fetch from "node-fetch";
 import ShipmentTable from "@components/ShipmentTable/ShipmentTable";
+import Layout from "@components/Layout/Layout";
 
 const Ship: NextPage<{ [key: string]: any }> = ({ship}) => (
-    <ShipmentTable ship={ship} />
+    <Layout>
+        <ShipmentTable ship={ship} />
+    </Layout>
 )
 
 Ship.getInitialProps = async ({query}) => {

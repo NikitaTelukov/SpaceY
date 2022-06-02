@@ -14,6 +14,7 @@ const Logo:NextPage<LogoI> = ({width, height, isDarkMode})=> {
                     src={isDarkMode ? "/images/dark/logo.svg" : "/images/light/logo.svg"}
                     width={width}
                     height={height}
+                    alt="Logo"
                 />
             </a>
         </Link>

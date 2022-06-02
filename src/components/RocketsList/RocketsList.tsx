@@ -2,7 +2,6 @@ import {FunctionComponent, useEffect, useState} from "react";
 import Text from "@components/Text/Text";
 import styles from "./RocketList.module.scss"
 import RocketCard from "@components/RocketsList/RocketCard/RocketCard";
-import fetch from "node-fetch";
 
 interface RocketListI {
     heading: string
@@ -56,7 +55,7 @@ const RocketsList: FunctionComponent<RocketListI> = ({heading, launches, upcomin
         <section>
             <Text customClass={styles.heading} type="heading2">{heading}</Text>
             <div className={styles.rocketList}>
-                {currentLaunches.map((launch, index) => (
+                {currentLaunches?.map((launch, index) => (
                     <RocketCard
                         id={launch.flight_number}
                         key={launch.flight_number + index}

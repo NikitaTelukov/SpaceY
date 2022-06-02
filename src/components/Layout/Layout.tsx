@@ -7,7 +7,7 @@ import Footer from "@components/Footer/Footer";
 import {MyAppDispatch, useAppDispatch} from "../../pages/_app";
 import { useSelector } from 'react-redux'
 
-interface RootState {
+export interface RootState {
     modeSwitcher: {
         mainBackground: string
     }

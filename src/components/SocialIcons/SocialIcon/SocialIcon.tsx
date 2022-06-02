@@ -8,7 +8,7 @@ const SocialIcon:FunctionComponent<SocialIconI> = ({link, src}) => {
     return (
         <Link href={link}>
             <a className={styles.socialIcon}>
-                <Image src={src} width={25} height={25} />
+                <Image src={src} width={25} height={25} alt="Social icon" />
             </a>
         </Link>
     )

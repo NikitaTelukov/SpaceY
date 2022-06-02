@@ -6,6 +6,8 @@ export interface LogoI {
     isDarkMode: boolean
 }
 
+export interface HeadingI extends Omit<TextI, "customClass"> {}
+
 export interface LayoutI {
     children: ReactNode
 }

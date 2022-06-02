@@ -3,21 +3,21 @@ import TopAstronautSection from "@components/TopAstronautSection/TopAstronautSec
 import InfoIcons from "@components/InfoIcons/InfoIcons";
 import InfoSection from "@components/InfoSection/InfoSection";
 import BottomFormSection from "@components/BottomFormSection/BottomFormSection";
-import fetch from "node-fetch";
 import {getShipsList} from "../redux/actions"
 import { MyAppDispatch, useAppDispatch} from "./_app";
+import Layout from "@components/Layout/Layout";
 
 const Home: NextPage<{ships: object}> = ({ships}) => {
     const dispatch: MyAppDispatch = useAppDispatch()
     dispatch(getShipsList(ships))
 
     return (
-        <>
+        <Layout>
             <TopAstronautSection />
             <InfoIcons />
             <InfoSection />
             <BottomFormSection />
-        </>
+        </Layout>
     )
 }
 

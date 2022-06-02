@@ -45,7 +45,7 @@ const HomeSlider:FunctionComponent<HomeSliderI> = ({ ships}) => {
         ]
     };
 
-    const slides = ships.map(ship=> (
+    const slides = ships?.map(ship=> (
         <div key={ship.ship_id}>
             <Link href={`/ships/${ship.ship_id}`}>
                 <a>

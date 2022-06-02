@@ -1,10 +1,15 @@
 import {NextPage} from "next";
 import RocketsList from "@components/RocketsList/RocketsList";
-import fetch from "node-fetch";
+import Layout from "@components/Layout/Layout";
 
-const Upcoming: NextPage<{launches: object[]}> = ({launches}) => (
-    <RocketsList heading="Upcoming" launches={launches} upcoming={true}/>
-)
+const Upcoming: NextPage<{launches: object[]}> = ({launches}) => {
+    console.log(launches)
+    return (
+        <Layout>
+            <RocketsList heading="Upcoming" launches={launches} upcoming={true}/>
+        </Layout>
+    )
+}
 
 Upcoming.getInitialProps = async () => {
     let data = await fetch(`https://api.spacexdata.com/v3/launches/upcoming?limit=30`)
